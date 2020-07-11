@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web App</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Sacramento&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MuseoModerno:wght@500&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cookie&family=Kaushan+Script&family=Righteous&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <h1 class="stop">Stop Watch</h1>
+    </div>
+
+    <div>
+        <h3>Minutes</h3>
+        <h3>Seconds</h3>
+        <h3>Milliseconds</h3>
+    </div>
+
+    <div>
+        <h1 id="min" class="num">0</h1>
+        <h1 id="sec" class="num">0</h1>
+        <h1 id="msec" class="num">0</h1>
+    </div>
+
+    <div>
+        <button class="button stylebtn" id="startBtn" onclick="start()">Start</button>
+        <button class="button  stylebtn" onclick="stop()">Pause</button>
+        <button class="button  stylebtn" onclick="reset()">Reset</button>
+    </div>
+
+    <br><br><br><br><br><br><br><br><hr>
+    <footer>
+        <h4 class="credit">Made By: Haris Ahmed</h4>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
